@@ -1,8 +1,8 @@
-# 🚀 NeoFit Monitor
+# 🚀 HooDzik
 
 Nowoczesna, futurystyczna aplikacja desktopowa/webowa do zarządzania zdrowiem, dietą i procesem odchudzania użytkownika.
 
-![NeoFit Monitor](https://img.shields.io/badge/Status-Active-brightgreen)
+![HooDzik](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Version](https://img.shields.io/badge/Version-0.1.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -190,6 +190,6 @@ Masz pytania lub sugestie? Otwórz issue na GitHubie!
 
 ---
 
-**Zbuduj swoją przyszłość z NeoFit Monitor** 🚀💪✨
+**Zbuduj swoją przyszłość z HooDzik** 🚀💪✨
 
 
