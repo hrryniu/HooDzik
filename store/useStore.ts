@@ -260,7 +260,7 @@ export const useStore = create<StoreState>()(
       },
     }),
     {
-      name: 'neofit-storage',
+      name: 'hoodzik-storage',
     }
   )
 );

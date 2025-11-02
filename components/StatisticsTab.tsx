@@ -70,7 +70,7 @@ export default function StatisticsTab() {
     // Title
     doc.setFontSize(20);
     doc.setTextColor(0, 243, 255);
-    doc.text('NeoFit Monitor - Raport', 20, 20);
+    doc.text('HooDzik - Raport', 20, 20);
 
     // User info
     doc.setFontSize(12);
@@ -102,7 +102,7 @@ export default function StatisticsTab() {
       headStyles: { fillColor: [0, 243, 255] },
     });
 
-    doc.save(`neofit-raport-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
+    doc.save(`hoodzik-raport-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
   };
 
   // Prepare chart data

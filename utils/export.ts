@@ -17,7 +17,7 @@ export function exportWorkoutsToPDF(
   // Title
   doc.setFontSize(24);
   doc.setTextColor(0, 243, 255);
-  doc.text('NeoFit Monitor', 20, 20);
+  doc.text('HooDzik', 20, 20);
 
   // Subtitle
   doc.setFontSize(16);
@@ -120,7 +120,7 @@ export function exportWorkoutsToPDF(
   }
 
   // Save
-  doc.save(`neofit-raport-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
+  doc.save(`hoodzik-raport-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
 }
 
 /**
@@ -149,7 +149,7 @@ export function exportWorkoutsToCSV(workouts: Workout[]) {
   const url = URL.createObjectURL(blob);
   
   link.setAttribute('href', url);
-  link.setAttribute('download', `neofit-treningi-${format(new Date(), 'yyyy-MM-dd')}.csv`);
+  link.setAttribute('download', `hoodzik-treningi-${format(new Date(), 'yyyy-MM-dd')}.csv`);
   link.style.visibility = 'hidden';
   
   document.body.appendChild(link);
